@@ -6,13 +6,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class Task3 {
-
-    public static void main(String[] args) {
-        
-
-
-    }
-
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
       List<Boolean> result=new ArrayList<Boolean>();
       
