@@ -3,10 +3,6 @@ package org.lc.LeetCode_75;
 import java.util.ArrayList;
 
 public class Task6 {
-    public static void main(String[] args) {
-        System.out.println("'"+reverseWords("  hello world  ")+"'");
-    }
-
     public static String reverseWords(String s) {
         String result = new String();
         String[] strings = s.split(" ");
