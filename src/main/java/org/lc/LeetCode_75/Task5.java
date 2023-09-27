@@ -3,10 +3,6 @@ package org.lc.LeetCode_75;
 import java.util.*;
 
 public class Task5 {
-    public static void main(String[] args) {
-        System.out.println(reverseVowels(new String("hello")));
-    }
-
     public static String reverseVowels(String s) {
         StringBuilder result = new StringBuilder(s);
         String vowels = "aeiouAEIOU";
